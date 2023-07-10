@@ -63,7 +63,7 @@ export const getPostDetails = async (slug) => {
         featuredImage {
           url
         }
-        author{
+        authors{
           name
           bio
           photo {
@@ -151,7 +151,7 @@ export const getCategoryPost = async (slug) => {
         edges {
           cursor
           node {
-            author {
+            authors {
               bio
               name
               id
